@@ -6,7 +6,6 @@
  */
 
 import React, {
-    PropTypes,
     Component,
 } from 'react'
 import {
@@ -21,6 +20,7 @@ import * as Utils from './Utils'
 import Point from './Point'
 import Line from './Line'
 import Arrow from './Arrow'
+import PropTypes from 'prop-types'
 
 const padding = 8
 const borderWidth = 1
